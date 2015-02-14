@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crowdsourcing.Web", "Crowdsourcing.Web\Crowdsourcing.Web.csproj", "{69E103A8-74AB-4087-B49C-1858C8620C24}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{C4025431-60FF-47E1-B6C0-98B3D4A7FF80}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{C9AA90BD-6510-426F-B880-26A374B18831}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\CrowdsourcingWeb-WAWS-dev.json = PublishScripts\Configurations\CrowdsourcingWeb-WAWS-dev.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crowdsourcing.Data", "Crowdsourcing.Data\Crowdsourcing.Data.csproj", "{4BF99B54-4700-4AB1-8F3A-3A3121E8661E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crowdsourcing.Service", "Crowdsourcing.Service\Crowdsourcing.Service.csproj", "{C485D066-087B-40CD-BFD2-E4D39F3DF89A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crowdsourcing.Domain", "Crowdsourcing.Domain\Crowdsourcing.Domain.csproj", "{746F3705-1239-4B5C-9683-5DC2ECBC2390}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69E103A8-74AB-4087-B49C-1858C8620C24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69E103A8-74AB-4087-B49C-1858C8620C24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69E103A8-74AB-4087-B49C-1858C8620C24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69E103A8-74AB-4087-B49C-1858C8620C24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BF99B54-4700-4AB1-8F3A-3A3121E8661E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BF99B54-4700-4AB1-8F3A-3A3121E8661E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BF99B54-4700-4AB1-8F3A-3A3121E8661E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BF99B54-4700-4AB1-8F3A-3A3121E8661E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C485D066-087B-40CD-BFD2-E4D39F3DF89A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C485D066-087B-40CD-BFD2-E4D39F3DF89A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C485D066-087B-40CD-BFD2-E4D39F3DF89A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C485D066-087B-40CD-BFD2-E4D39F3DF89A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{746F3705-1239-4B5C-9683-5DC2ECBC2390}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{746F3705-1239-4B5C-9683-5DC2ECBC2390}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{746F3705-1239-4B5C-9683-5DC2ECBC2390}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{746F3705-1239-4B5C-9683-5DC2ECBC2390}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C9AA90BD-6510-426F-B880-26A374B18831} = {C4025431-60FF-47E1-B6C0-98B3D4A7FF80}
+	EndGlobalSection
+EndGlobal
