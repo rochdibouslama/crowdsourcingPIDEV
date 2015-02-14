@@ -13,6 +13,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishSc
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{C9AA90BD-6510-426F-B880-26A374B18831}"
 	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\CrowdsourcingAPI-WAWS-dev.json = PublishScripts\Configurations\CrowdsourcingAPI-WAWS-dev.json
 		PublishScripts\Configurations\CrowdsourcingWeb-WAWS-dev.json = PublishScripts\Configurations\CrowdsourcingWeb-WAWS-dev.json
 	EndProjectSection
 EndProject
@@ -21,6 +22,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crowdsourcing.Service", "Crowdsourcing.Service\Crowdsourcing.Service.csproj", "{C485D066-087B-40CD-BFD2-E4D39F3DF89A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crowdsourcing.Domain", "Crowdsourcing.Domain\Crowdsourcing.Domain.csproj", "{746F3705-1239-4B5C-9683-5DC2ECBC2390}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crowdsourcing.API", "Crowdsourcing.API\Crowdsourcing.API.csproj", "{123BC4B6-F41C-43E6-AC84-0ADD3E7792E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -44,6 +47,10 @@ Global
 		{746F3705-1239-4B5C-9683-5DC2ECBC2390}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{746F3705-1239-4B5C-9683-5DC2ECBC2390}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{746F3705-1239-4B5C-9683-5DC2ECBC2390}.Release|Any CPU.Build.0 = Release|Any CPU
+		{123BC4B6-F41C-43E6-AC84-0ADD3E7792E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{123BC4B6-F41C-43E6-AC84-0ADD3E7792E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{123BC4B6-F41C-43E6-AC84-0ADD3E7792E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{123BC4B6-F41C-43E6-AC84-0ADD3E7792E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
